@@ -1,0 +1,2 @@
+month_start,region,fact_records,total_sales_pkr,total_units,traced_records,missing_lineage,source_system,source_object,source_batch
+2026-05-01,North,36,4644043.27,191,36,0,SRC_SALES,SRC_SALES:public.sales_transaction_lines,INITIAL_SALES_001

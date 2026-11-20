@@ -1,0 +1,18 @@
+Validation Check,Expected Result,Actual Result,Status
+FactSales row count,1201,1201,PASS
+FactPurchasing row count,1201,1201,PASS
+FactInventoryMovement row count,1201,1201,PASS
+FactSales grain uniqueness,1201 unique keys,1201 unique keys,PASS
+FactPurchasing grain uniqueness,1201 unique keys,1201 unique keys,PASS
+FactInventoryMovement grain uniqueness,1201 unique keys,1201 unique keys,PASS
+Foreign-key validation,0 missing references,0 missing references,PASS
+Unknown dimension members,1 per dimension,1 per dimension,PASS
+Sales reconciliation,6625 / PKR 146686462.33,6625 / PKR 146686462.33,PASS
+Purchasing reconciliation,62160 / PKR 631134620.74,62160 / PKR 631134620.74,PASS
+Inventory reconciliation,60663 / PKR 622589390.94,60663 / PKR 622589390.94,PASS
+Sales lineage coverage,1201 records,1201 records,PASS
+Purchasing lineage coverage,1201 records,1201 records,PASS
+Inventory lineage coverage,1201 records,1201 records,PASS
+Duplicate fact keys,0,0,PASS
+Duplicate lineage records,0,0,PASS
+Unchanged ETL rerun,No count or total changes,Previously verified,PASS

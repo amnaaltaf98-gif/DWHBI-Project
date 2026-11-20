@@ -1,0 +1,9 @@
+rule_id,rule_version,rule_name,source_expression,transformation_expression,target_expression,unit,null_policy,rule_description,created_at_utc
+RULE_001,V1,Trim Text,Source text columns,Remove leading and trailing whitespace,Standardized text columns,Text,Preserve NULL values,Removes unnecessary whitespace from text fields,2026-11-07 19:22:02.953868
+RULE_002,V1,Convert Dates,Source date columns,Convert values to datetime,Standardized date columns,Date/Time,Invalid dates become NULL,Standardizes date values,2026-11-07 19:22:02.953868
+RULE_003,V1,Convert Numeric Values,Source numeric and quantity columns,Convert to numeric types,Standardized numeric columns,Numeric,Preserve missing values,Standardizes quantities and monetary values,2026-11-07 19:22:02.953868
+RULE_004,V1,Standardize Categories,Source category columns,Trim whitespace and apply title case,Canonical category values,Category,Preserve NULL values,Standardizes category labels,2026-11-07 19:22:02.953868
+RULE_005,V1,Assign Currency,Selected monetary source tables,Add currency_code = PKR,Standardized monetary tables,PKR,Use PKR for generated project data,Identifies the currency of monetary values,2026-11-07 19:22:02.953868
+RULE_006,V1,Calculate Sales Amount,quantity and unit_price,quantity multiplied by unit_price,fact_sales.sales_amount,PKR,Missing mandatory values are quarantined,Calculates sales line amount,2026-11-07 19:22:02.953868
+RULE_007,V1,Calculate Purchase Amount,quantity and unit_cost,quantity multiplied by unit_cost,fact_purchasing.purchase_amount,PKR,Missing mandatory values are quarantined,Calculates purchasing line amount,2026-11-07 19:22:02.953868
+RULE_008,V1,Calculate Movement Amount,quantity and unit_cost,quantity multiplied by unit_cost,fact_inventory_movement.movement_amount,PKR,Missing mandatory values are quarantined,Calculates inventory movement amount,2026-11-07 19:22:02.953868

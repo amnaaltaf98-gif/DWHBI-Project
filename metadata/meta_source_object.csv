@@ -1,0 +1,21 @@
+source_object_id,source_system_id,schema_name,object_name,qualified_name,object_type,business_definition,captured_at_utc,catalogue_version
+SRC_SALES:public.sales_customers,SRC_SALES,public,sales_customers,public.sales_customers,TABLE,Customer master records for the Sales department.,2026-11-07 19:16:10.981888,V1
+SRC_SALES:public.sales_locations,SRC_SALES,public,sales_locations,public.sales_locations,TABLE,Geographical locations used for sales transactions.,2026-11-07 19:16:10.981888,V1
+SRC_SALES:public.sales_products,SRC_SALES,public,sales_products,public.sales_products,TABLE,Product details maintained by the Sales department.,2026-11-07 19:16:10.981888,V1
+SRC_SALES:public.sales_transaction_lines,SRC_SALES,public,sales_transaction_lines,public.sales_transaction_lines,TABLE,Individual product lines belonging to sales transactions.,2026-11-07 19:16:10.981888,V1
+SRC_SALES:public.sales_transactions,SRC_SALES,public,sales_transactions,public.sales_transactions,TABLE,Sales transaction header records.,2026-11-07 19:16:10.981888,V1
+SRC_PURCHASING:public.purchasing_locations,SRC_PURCHASING,public,purchasing_locations,public.purchasing_locations,TABLE,Locations maintained by the Purchasing department.,2026-11-07 19:16:10.981888,V1
+SRC_PURCHASING:public.purchasing_order_lines,SRC_PURCHASING,public,purchasing_order_lines,public.purchasing_order_lines,TABLE,Individual product lines belonging to purchase orders.,2026-11-07 19:16:10.981888,V1
+SRC_PURCHASING:public.purchasing_orders,SRC_PURCHASING,public,purchasing_orders,public.purchasing_orders,TABLE,Purchase order header records.,2026-11-07 19:16:10.981888,V1
+SRC_PURCHASING:public.purchasing_products,SRC_PURCHASING,public,purchasing_products,public.purchasing_products,TABLE,Products maintained by the Purchasing department.,2026-11-07 19:16:10.981888,V1
+SRC_PURCHASING:public.purchasing_suppliers,SRC_PURCHASING,public,purchasing_suppliers,public.purchasing_suppliers,TABLE,Supplier master records for purchasing activities.,2026-11-07 19:16:10.981888,V1
+SRC_INVENTORY:main.inventory_locations,SRC_INVENTORY,main,inventory_locations,main.inventory_locations,TABLE,Locations where inventory is managed.,2026-11-07 19:16:41.751478,V1
+SRC_INVENTORY:main.inventory_products,SRC_INVENTORY,main,inventory_products,main.inventory_products,TABLE,Product master records used for inventory management.,2026-11-07 19:16:41.751478,V1
+SRC_INVENTORY:main.inventory_stock_levels,SRC_INVENTORY,main,inventory_stock_levels,main.inventory_stock_levels,TABLE,Recorded stock quantities by product and location.,2026-11-07 19:16:41.751478,V1
+SRC_INVENTORY:main.inventory_transaction_lines,SRC_INVENTORY,main,inventory_transaction_lines,main.inventory_transaction_lines,TABLE,Individual lines describing inventory movements.,2026-11-07 19:16:41.751478,V1
+SRC_INVENTORY:main.inventory_transactions,SRC_INVENTORY,main,inventory_transactions,main.inventory_transactions,TABLE,Inventory movement transaction header records.,2026-11-07 19:16:41.751478,V1
+SRC_FINANCE:main.finance_accounts,SRC_FINANCE,main,finance_accounts,main.finance_accounts,TABLE,Financial accounts used to classify financial transactions.,2026-11-07 19:17:14.178756,V1
+SRC_FINANCE:main.finance_budgets,SRC_FINANCE,main,finance_budgets,main.finance_budgets,TABLE,Monthly departmental financial budget records.,2026-11-07 19:17:14.178756,V1
+SRC_FINANCE:main.finance_departments,SRC_FINANCE,main,finance_departments,main.finance_departments,TABLE,Department records used for financial reporting.,2026-11-07 19:17:14.178756,V1
+SRC_FINANCE:main.finance_transaction_lines,SRC_FINANCE,main,finance_transaction_lines,main.finance_transaction_lines,TABLE,Individual financial transaction entries.,2026-11-07 19:17:14.178756,V1
+SRC_FINANCE:main.finance_transactions,SRC_FINANCE,main,finance_transactions,main.finance_transactions,TABLE,Financial transaction header records.,2026-11-07 19:17:14.178756,V1

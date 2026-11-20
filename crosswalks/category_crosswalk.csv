@@ -1,0 +1,13 @@
+source_table,source_category,canonical_category
+sales_products,Furniture,Furniture
+sales_products,Food,Food
+sales_products,Electronics,Electronics
+sales_products,Clothing,Clothing
+purchasing_products,Office Supplies,Office Supplies
+purchasing_products,Raw Materials,Raw Materials
+purchasing_products,Packaging,Packaging
+purchasing_products,Electronics,Electronics
+inventory_products,Food,Food
+inventory_products,Clothing,Clothing
+inventory_products,Furniture,Furniture
+inventory_products,Electronics,Electronics

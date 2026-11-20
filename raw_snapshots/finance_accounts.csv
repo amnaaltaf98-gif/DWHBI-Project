@@ -1,0 +1,21 @@
+account_id,account_name,account_type
+1,Account 1,Asset
+2,Account 2,Expense
+3,Account 3,Expense
+4,Account 4,Liability
+5,Account 5,Revenue
+6,Account 6,Asset
+7,Account 7,Liability
+8,Account 8,Expense
+9,Account 9,Liability
+10,Account 10,Expense
+11,Account 11,Expense
+12,Account 12,Liability
+13,Account 13,Asset
+14,Account 14,Asset
+15,Account 15,Revenue
+16,Account 16,Liability
+17,Account 17,Asset
+18,Account 18,Revenue
+19,Account 19,Liability
+20,Account 20,Liability
