@@ -1,0 +1,4 @@
+case_type,region,month_start,fact_records,original_sales_amount,original_units,traced_records,source_objects,source_systems,source_batches
+Original statistical alert,North,2026-05-01,36,4644043.27,191,36,SRC_SALES:public.sales_transaction_lines,SRC_SALES,INITIAL_SALES_001
+Original Isolation Forest alert,West,2026-06-01,0,0.0,0,0,,,
+Injected test case - original source data,South,2026-07-01,10,706960.31,44,10,SRC_SALES:public.sales_transaction_lines,SRC_SALES,INITIAL_SALES_001

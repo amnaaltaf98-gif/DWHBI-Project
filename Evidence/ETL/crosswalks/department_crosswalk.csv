@@ -1,0 +1,11 @@
+source_table,source_department_id,source_department_name,canonical_department_name
+finance_departments,1,Sales,Sales
+finance_departments,2,Purchasing,Purchasing
+finance_departments,3,Inventory,Inventory
+finance_departments,4,Finance,Finance
+finance_departments,5,HR,Hr
+finance_departments,6,Marketing,Marketing
+finance_departments,7,Customer Service,Customer Service
+finance_departments,8,Logistics,Logistics
+finance_departments,9,Production,Production
+finance_departments,10,Returns,Returns

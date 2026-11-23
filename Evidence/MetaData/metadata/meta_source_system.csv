@@ -1,0 +1,5 @@
+source_system_id,department,platform,engine,logical_database_name,owner_role,captured_at_utc
+SRC_SALES,Sales,Supabase,PostgreSQL,postgres,Sales Department,2026-11-07 19:05:23.151205
+SRC_PURCHASING,Purchasing,Aiven,PostgreSQL,defaultdb,Purchasing Department,2026-11-07 19:05:23.151205
+SRC_INVENTORY,Inventory,Local Database,SQLite,inventory.db,Inventory Department,2026-11-07 19:05:23.151205
+SRC_FINANCE,Finance,Local Database,DuckDB,finance.duckdb,Finance Department,2026-11-07 19:05:23.151205
